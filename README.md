@@ -18,6 +18,8 @@ npx nx test bluelands
 
 npx nx e2e bluelands-e2e
 
+Nx allows us to examine the dependency graph of our workspace with the nx dep-graph command
+
 ## Adding capabilities to your workspace
 
 Nx supports many plugins which add capabilities for developing different types of applications and different tools.
