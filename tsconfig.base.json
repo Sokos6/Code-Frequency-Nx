@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@codefrequency/feature": ["libs/feature/src/index.ts"],
+      "@codefrequency/books/feature": ["libs/books/feature/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

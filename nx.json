@@ -19,12 +19,7 @@
       "runner": "@nrwl/nx-cloud",
       "options": {
         "accessToken": "YzRjMjBkOGEtZTE3NC00MGI1LThhZjAtNzUzYjA4YTA1ZmRhfHJlYWQtd3JpdGU=",
-        "cacheableOperations": [
-          "build",
-          "test",
-          "lint",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "test", "lint", "e2e"],
         "canTrackAnalytics": false,
         "showUsageWarnings": true
       }
@@ -36,9 +31,13 @@
     },
     "bluelands-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "bluelands"
-      ]
+      "implicitDependencies": ["bluelands"]
+    },
+    "feature": {
+      "tags": []
+    },
+    "books-feature": {
+      "tags": []
     }
   }
 }
