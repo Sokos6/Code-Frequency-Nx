@@ -6,6 +6,18 @@ This project was generated using [Nx](https://nx.dev).
 
 🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
 
+# Run a linter for the application
+
+npx nx lint bluelands
+
+# Run unit tests for the application
+
+npx nx test bluelands
+
+# Run e2e tests for the application
+
+npx nx e2e bluelands-e2e
+
 ## Adding capabilities to your workspace
 
 Nx supports many plugins which add capabilities for developing different types of applications and different tools.
