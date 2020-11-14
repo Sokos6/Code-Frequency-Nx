@@ -13,12 +13,10 @@ const StyledNavigationList = styled.div`
   }
 `;
 
-export const NavigationList = (props: HTMLAttributes<HTMLElement>) {
+export const NavigationList = (props: HTMLAttributes<HTMLElement>) => {
   return (
-    <StyledNavigationList role='navigaton'>
-    <ul>
-      {props.children}
-    </ul>
+    <StyledNavigationList role="navigaton">
+      <ul>{props.children}</ul>
     </StyledNavigationList>
   );
 };
