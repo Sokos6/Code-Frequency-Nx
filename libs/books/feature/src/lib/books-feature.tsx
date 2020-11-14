@@ -21,7 +21,7 @@ export const BooksFeature = () => {
     <StyledBooksFeature>
       <h1>Welcome to Blue Lands!</h1>
       <h2>Books</h2>
-      <Books books={books} />
+      <Books books={books} onAdd={(book) => alert(`Added &{book.title}`)} />
     </StyledBooksFeature>
   );
 };
