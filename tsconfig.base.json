@@ -21,7 +21,8 @@
       "@codefrequency/ui": ["libs/ui/src/index.ts"],
       "@codefrequency/books/data-access": [
         "libs/books/data-access/src/index.ts"
-      ]
+      ],
+      "@codefrequency/books/ui": ["libs/books/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
