@@ -18,7 +18,10 @@
     "paths": {
       "@codefrequency/feature": ["libs/feature/src/index.ts"],
       "@codefrequency/books/feature": ["libs/books/feature/src/index.ts"],
-      "@codefrequency/ui": ["libs/ui/src/index.ts"]
+      "@codefrequency/ui": ["libs/ui/src/index.ts"],
+      "@codefrequency/books/data-access": [
+        "libs/books/data-access/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

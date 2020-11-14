@@ -18,7 +18,7 @@ export const App = () => {
     <>
       <GlobalStyles />
       <Header>
-        <h1>Bookstore</h1>
+        <h1>Blue Lands</h1>
         <NavigationList>
           <NavigationItem>
             <Link to="/books">Books</Link>
