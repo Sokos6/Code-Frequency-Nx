@@ -4,7 +4,7 @@ import styled from 'styled-components';
 /* eslint-disable-next-line */
 export interface HeaderProps {}
 
-const StyledHeader = styled.div`
+const StyledHeader = styled.header`
   padding: 1rem;
   background-color: #2657ba;
   color: white;
